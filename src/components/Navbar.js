@@ -32,7 +32,7 @@ function Navbar() {
                     JR Sounds <i className='fab fa-typo3'/>
                 </a>
                 <div className="menu-icon" onClick={handleClick}>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} >menu</i>
+                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} ></i>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
